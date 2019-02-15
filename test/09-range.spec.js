@@ -2,7 +2,7 @@ var
     expect = require('chai').expect;
     
 describe("#range", function () {
-    var homework = require('../day-3/homework/range');
+    var homework = require('../js/range');
     it('should return a range between the two input integers', function () {
         expect(homework.range(1, 5)).to.eql([1, 2, 3, 4, 5]);
     });

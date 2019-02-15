@@ -10,7 +10,7 @@ describe('#loops', function() {
   afterEach(function() {
     console.log.restore();
   });
-  var assignment = require('../day-2/loops');
+  var assignment = require('../js/loops');
   var array = [1, 2, 3];
   var arrayTwo = ['one', 'two', 'three', 'four'];
   var object = { one: 'one', two: 'two', three: 'three' };
